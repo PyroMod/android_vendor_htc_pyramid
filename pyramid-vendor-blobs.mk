@@ -80,3 +80,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
+  
