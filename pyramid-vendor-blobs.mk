@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/htc/pyramid/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:system/lib/libchromatix_s5k3h1gx_default_video.so \
@@ -82,5 +83,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/pyramid/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so \
+  vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem
+
   
