@@ -31,7 +31,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/bin/rild:system/bin/rild \
-  vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+  vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
+  vendor/htc/pyramid/proprietary/bin/snd:system/bin/snd \
+  vendor/htc/pyramid/proprietary/bin/snd8k:system/bin/snd8k \
+  vendor/htc/pyramid/proprietary/bin/sound8x60:system/bin/sound8x60 \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -40,11 +43,17 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.msm8660.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.msm8660.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+  vendor/htc/pyramid/proprietary/lib/libaudcalwb.so:system/lib/libaudcalwb.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/pyramid/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
@@ -86,4 +95,3 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so \
   vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem
 
-  
