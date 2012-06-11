@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/pyramid/proprietary/bin/rild:system/bin/rild \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -79,6 +80,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/pyramid/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+  vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/pyramid/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
