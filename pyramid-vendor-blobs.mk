@@ -92,6 +92,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/pyramid/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so \
-  vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem
+  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so 
 
