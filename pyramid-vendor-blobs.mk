@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/app/HTC-PYRTM-ICS-4.0.1-2.3-49986-4.3.apk:system/app/HTC-PYRTM-ICS-4.0.1-2.3-49986-4.3.apk \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
+  vendor/htc/pyramid/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
