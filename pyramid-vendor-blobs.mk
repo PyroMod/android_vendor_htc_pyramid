@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
-  vendor/htc/pyramid/proprietary/app/HTC-PYRTM-ICS-4.0.1-2.3-49986-4.3.apk:system/app/HTC-PYRTM-ICS-4.0.1-2.3-49986-4.3.apk \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
@@ -54,13 +53,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libdll.so:system/lib/libdll.so \
   vendor/htc/pyramid/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/pyramid/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-  vendor/htc/pyramid/proprietary/lib/libganril.so:system/lib/libganril.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
-  vendor/htc/pyramid/proprietary/lib/libkineto.so:system/lib/libkineto.so \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
@@ -76,7 +73,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/pyramid/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-  vendor/htc/pyramid/proprietary/lib/librilswitch.so:system/lib/librilswitch.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
   
